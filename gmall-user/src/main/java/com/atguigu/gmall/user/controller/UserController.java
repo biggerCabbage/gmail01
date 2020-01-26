@@ -29,6 +29,9 @@ public class UserController {
     @ResponseBody
     public List<UmsMember> getAllUser(){
         List<UmsMember> umsMembers = userService.getAllUser();
+
+
+
         return umsMembers;
     }
 
